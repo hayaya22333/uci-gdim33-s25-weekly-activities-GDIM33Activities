@@ -1,14 +1,13 @@
 # GDIM 33 In-Class Activities
 ## W1
 ### Activity 1
-Put your inspo board link here. Do NOT leave a bare URL. REMOVE ALL INSTRUCTIONAL TEXT.
-
-1. Put your activity 1 answers here.
-2. Please keep the proper list format.
-
+[Inspo Board](https://miro.com/app/board/uXjVGoFaoL8=/)
+1. I'm interested in making a rpg game, about grinding and leveling up.
+2. We play tft, PEAK, Cyberpunk.
+3. We both play a lot of competitive games (LOL, Overwatch, Valorant, etc)
 
 ### Activity 2
-Put your activity 2 image here. REMOVE THIS INSTRUCTIONAL TEXT.
+<img width="783" height="590" alt="image" src="https://github.com/user-attachments/assets/a3d49875-3164-4078-bf2f-929278bbc811" />
 
 
 ## W2
