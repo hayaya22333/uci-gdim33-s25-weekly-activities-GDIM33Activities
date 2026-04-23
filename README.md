@@ -39,3 +39,6 @@ Playtesting notes:
 -Add more enemy moving scheme
 
 ### Activity 2
+1. Yes. The triggers for code are already written into nodes, so the writer could insert their dialogue through the visual graph.
+2. There is no limit to the number of nodes a writer can put.
+3. Regenerate Nodes will compile the scriptes used to affect how nodes appear in graph. For instance, if a programmer created a new event node in script, they will have to regenerate nodes in order for it to be available as a node in the visual scripting graph. For manually added nodes that don't inherit from classes like monobehavior, so these nodes need to be added in Type Options.
