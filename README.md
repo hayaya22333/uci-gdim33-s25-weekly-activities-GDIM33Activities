@@ -15,6 +15,7 @@ Write your W2 Devlog here.
 ## W3
 ### Activity 1
 <img width="990" height="658" alt="image" src="https://github.com/user-attachments/assets/b39163d2-9b99-469d-9bd0-a885a3d83afe" />
+
 ### Activity 2
 1. We had to save that specific name because the event needs to be referenced and called in another visual script.
 2. Using Debug.Log gurantees that if the log doesn't appear as expected, the bug will definitely be in the steps before. If a function was called after a step to test that step, an unexpected result could also be because of an error in the function itself.
