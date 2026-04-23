@@ -21,3 +21,21 @@ Write your W2 Devlog here.
 2. Using Debug.Log gurantees that if the log doesn't appear as expected, the bug will definitely be in the steps before. If a function was called after a step to test that step, an unexpected result could also be because of an error in the function itself.
 3. Yes. One of the core mechanics is shooting, so I need to lock the cursor in game and only show a crosser in center of screen. When selling items, the cursor would be unlocked so the player can selected items for selling and buying.
 4. Yes. I will also have an explore state and dialogue state. In dialogue state, enemies will not enter Aggro state.
+
+## W4
+### Activity 1
+My current build contains a fps mechanic and enemy NPCs. The player can aim and shoot at NPC to deal damage, and dealing enough damage will kill the NPC and give player EXP. UI will show player level, EXP progression, and level up pop-up. The enemy will switch state to Aggro upon taking damage, and breifly flinch every time taking shot from player. Enemy also contain weak points and shields that will amplify or decrease player damage dealt. 
+
+
+My play testing goal is to see if the gameplay feels smooth and reasonable, and whether feedbacks are on time and make sense. 
+
+
+Members: Han Yang, Leo Abe, Jing Cheng, Tiancheng Li
+
+
+Playtesting notes:
+-How hitting weak points dealt more damage, which made the gameplay involve more technical skills.
+-Add limitation on player power (ammo? mp?)
+-Add more enemy moving scheme
+
+### Activity 2
