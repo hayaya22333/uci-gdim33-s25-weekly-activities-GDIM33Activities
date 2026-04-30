@@ -42,3 +42,19 @@ Playtesting notes:
 1. Yes. The triggers for code are already written into nodes, so the writer could insert their dialogue through the visual graph.
 2. There is no limit to the number of nodes a writer can put.
 3. Regenerate Nodes will compile the scriptes used to affect how nodes appear in graph. For instance, if a programmer created a new event node in script, they will have to regenerate nodes in order for it to be available as a node in the visual scripting graph. For manually added nodes that don't inherit from classes like monobehavior, so these nodes need to be added in Type Options.
+
+## W5
+### Activity 1
+Step 1: Apply animation for enemy walk and idle cycle
+1. Switch enemy states using state machine (already complete)
+2. In each state, use On Start node to initiate looping animation
+3. Use Update node to resume to the looping animation if animation is broken by stun or attack animation
+
+Step 2: Apply animation for enemy attack
+1. Write a function that returns the float distance between enemy and player in enemy script
+2. Add a visual script machine on enemy
+3. Starting from an update node, use the script's distance function to play attack animation when close enough to the player.
+4. Add collider to enemy as hitbox, and invoke attack after playing animation, dealing damage to player if player is in hitbox.
+
+### Activity 2
+Building on the state machine built for Milestone 1, I implemented simple animation for walk and idle cycle. The resume back to animation loop from stun and attack is also implemented. I still need to make detailed model and animation in blender to replace the simple animation in unity.
