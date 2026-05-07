@@ -71,8 +71,10 @@ Playtesting Goals:
 - Does the audio and visual cues make sense
 - Anything that feels missing or not fun
 
+Feedback: Fix canvas UI size, and change font color to be more visible. Make UI bigger, add more decoration. Clearify enemy hitbox. Add attack feedback, let enemies splash blood or something?
+
 ### Activity 2
 1. Since RGB color has less light in one pixel when its value is closer to 0, Multiplying two values less than 1 will make the product smaller. Therefore, multiplying one RGB value to the other will make the output darker than the input.
 2. The alpha value will be smaller, therefore more translucent than the original values. For alpha, 1 means completely visible, and 0 means invisible.
 3. It gets those values from the mesh's UV coordinates.
-4. It's very useful but not very exciting, because I've been using these tools for both 2D and 3D asset making. 
+4. It's very useful but not very exciting, because I've been using these tools for both 2D and 3D asset making.
