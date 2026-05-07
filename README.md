@@ -58,3 +58,15 @@ Step 2: Apply animation for enemy attack
 
 ### Activity 2
 Building on the state machine built for Milestone 1, I implemented simple animation for walk and idle cycle. The resume back to animation loop from stun and attack is also implemented. I still need to make detailed model and animation in blender to replace the simple animation in unity.
+
+## W6
+### Activity 1
+I added enemy attack cool down, UI for when player takes damage, ammo system with mag and reload, NPC dialogue, and UI for when the player dies.
+
+[Itch link](https://hayaya22333.itch.io/ms2)
+
+Playtesting Goals:
+- Bugs in shooting and reloading
+- Difficulty regarding enemy strength
+- Does the audio and visual cues make sense
+- Anything that feels missing or not fun
