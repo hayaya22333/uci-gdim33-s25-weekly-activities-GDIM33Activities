@@ -78,3 +78,14 @@ Feedback: Fix canvas UI size, and change font color to be more visible. Make UI 
 2. The alpha value will be smaller, therefore more translucent than the original values. For alpha, 1 means completely visible, and 0 means invisible.
 3. It gets those values from the mesh's UV coordinates.
 4. It's very useful but not very exciting, because I've been using these tools for both 2D and 3D asset making.
+
+
+## W7
+### Devlog Questions
+1. The vertex of the mesh itself.
+2. The shader blends the colors of each vertext with gradient, so visually, the colors change at the edges of each polygon.
+3. Vertex color information is stored per vertex instead of per pixel, so it only shows the pixel colors that are located on vertex. All other pixel color information are lost.
+4. There's a patch on the shiba's butt that has lower normal than vertex surrounding it.
+5. It can be used to check the xyz rotation of a mesh, so when applying materials like our fire example that uses the mesh's rotation information, the fire won't move left when it's supposed to move up.
+6. The normal of that patch of vertex is buggy, pointing lower than it should.
+7. Additive will only add the lighter colors to what's behind it, so visually, it's only brightening what's behind it.
