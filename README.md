@@ -95,7 +95,7 @@ Feedback: Fix canvas UI size, and change font color to be more visible. Make UI 
 ## W8
 ### Activity 1
 1. I added audio for dialogue progession and other UI interaction, and an inventory that opens and displays items for player.
-2. [Itch link](https://hayaya22333.itch.io/ms2)
+2. [Itch link](https://hayaya22333.itch.io/ms3)
 3. I want to playtest for the player's experience with the UI, and if they know what they're doing in the game.
 
 
@@ -106,3 +106,10 @@ Playtesting notes:
 4. Add reload animation or something
 5. Add something that'll explain what the shop items do. New ui area?
 6. Add a main quest for the player, final goal?
+
+
+### Activity 2C
+1. The RenderPostProcessing Effects is likely associated with the effect created. That is the level that enables the red camera effect.
+2. When lerp = 0, the screen looks normal, at 0.5, it's partially blended, and at 1, it's fully red from the texture.
+3. The lerp node determines what percent of color the two original input is used in the final camera display. When it's at 0, the texture takes 0% effect on the final rendering, and as the lerp value grows closer to 1, the version of the original colors multiplied by texture 2d is 100% applied.
+4. The new algorithm ensures that the value will always be a non-negative by making the origin located at 0.5, which is important because the lerp node can only take values from 0 to 1.
