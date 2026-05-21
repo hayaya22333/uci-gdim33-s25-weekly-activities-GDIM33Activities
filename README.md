@@ -89,3 +89,20 @@ Feedback: Fix canvas UI size, and change font color to be more visible. Make UI 
 5. It can be used to check the xyz rotation of a mesh, so when applying materials like our fire example that uses the mesh's rotation information, the fire won't move left when it's supposed to move up.
 6. The normal of that patch of vertex is buggy, pointing lower than it should.
 7. Additive will only add the lighter colors to what's behind it, so visually, it's only brightening what's behind it.
+
+
+
+## W8
+### Activity 1
+1. I added audio for dialogue progession and other UI interaction, and an inventory that opens and displays items for player.
+2. [Itch link](https://hayaya22333.itch.io/ms2)
+3. I want to playtest for the player's experience with the UI, and if they know what they're doing in the game.
+
+
+Playtesting notes:
+1. Decorate the ui with sprites and arts to indicate whta each was supposed to mean.
+2. Remove extra dialogue from merchant after the first time
+3. Make the loot drop more obvious
+4. Add reload animation or something
+5. Add something that'll explain what the shop items do. New ui area?
+6. Add a main quest for the player, final goal?
