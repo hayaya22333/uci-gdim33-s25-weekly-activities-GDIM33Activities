@@ -113,3 +113,19 @@ Playtesting notes:
 2. When lerp = 0, the screen looks normal, at 0.5, it's partially blended, and at 1, it's fully red from the texture.
 3. The lerp node determines what percent of color the two original input is used in the final camera display. When it's at 0, the texture takes 0% effect on the final rendering, and as the lerp value grows closer to 1, the version of the original colors multiplied by texture 2d is 100% applied.
 4. The new algorithm ensures that the value will always be a non-negative by making the origin located at 0.5, which is important because the lerp node can only take values from 0 to 1.
+
+
+## W9
+### Activity 1
+Analyzing: PEAK
+
+1. When the player's crosser hover over an item, the item shows an outline, indicating that it can be picked up. This is a post-processing effect, since other players can't see the outline activated by your crossair. I believe it's using a shader graph similar to the outline effect from week 8's in-class activity 2A. Except in this game, instead of detecting mouse hovering, it tests if the raycast from player's crosser hit the object.
+2. When the player holds onto a golden BingBong statue, they become immortal, and the player model shows a rim lighting effect. This is different from the previous object outline, since the previous one expands from the sillouette, but the gradient effect in this case is on the object itself. When the player holds onto the item, the code would activate the shader, and use something related to camera normal to calculate how dark the gradient would be. This would be an object level effect, since it mess with object normals.
+
+Feature implementation:
+- Enemies get red rim lighting when they're hit by player.
+- NPC outlines when you're able to talk to them, or when new dialogues are available
+- Post processing like activity 2C from last week when player gets hit
+
+
+### Activity 2
