@@ -129,3 +129,5 @@ Feature implementation:
 
 
 ### Activity 2
+<img width="1691" height="978" alt="image" src="https://github.com/user-attachments/assets/f7862dc6-9f9a-44fe-bbfd-e60ef206454e" />
+I made a rim lighting shader graph for enemy, as stated in activity 1. I solved it by using a normal vector and view direction node to calculate the normal between camera and mesh normal.
