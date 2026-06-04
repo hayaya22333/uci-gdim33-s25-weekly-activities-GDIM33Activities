@@ -151,3 +151,7 @@ Playtesting notes:
 2. Figure out the different scripts that store information for each system. When there's multiple scenes, figure how information would be communicated between these scenes.
 3. For each system, construct an individual bubble diagram. Then, treat each individual system as a bubble and draw out how they effect each other.
 4. For each bubble in the system, create a work breakdown that has a precise plan on how to code each listed feature. At the start or bottom, mark how informatino are passed between each bubble, like as integer, boolean, string, scriptable object... and through what action.
+Doing the above, especially step 4, will provide a direct view of the workload planned. It can be difficult to plan a reasonable workload. On top of that, it can be difficult to connect systems to each other without pre planning how. Sometimes, it can even lead to refactoring a completed system, and that's a whole extra load of work.
+
+### Activity 3
+I implemented code in the enemy script to switch materials of the mesh after taking damage. Now, the enemy usually appear normal, and glow in red for 0.5 seconds after taking damage.
