@@ -131,3 +131,23 @@ Feature implementation:
 ### Activity 2
 <img width="1691" height="978" alt="image" src="https://github.com/user-attachments/assets/f7862dc6-9f9a-44fe-bbfd-e60ef206454e" />
 I made a rim lighting shader graph for enemy, as stated in activity 1. I solved it by using a normal vector and view direction node to calculate the normal between camera and mesh normal.
+
+
+## W10
+### Activity 1
+I added grass effect, more shader graphs, and other minor fixes on player experience. I also added a quest system, new NPC that gives out quests, and a new terrain that serves the quest.
+
+[itch.io](https://hayaya22333.itch.io/ms3)
+
+Mainly to look for bugs, and get feedback on the visual elements of the game.
+
+Playtesting notes: 
+- Enemies should be harder: ranged/tankier/faster
+- Level up after first kill
+- Visual on dialogue choice
+
+### Activity 2
+1. Brainstorm the core game loop, which is basically the vertical slice.
+2. Figure out the different scripts that store information for each system. When there's multiple scenes, figure how information would be communicated between these scenes.
+3. For each system, construct an individual bubble diagram. Then, treat each individual system as a bubble and draw out how they effect each other.
+4. For each bubble in the system, create a work breakdown that has a precise plan on how to code each listed feature. At the start or bottom, mark how informatino are passed between each bubble, like as integer, boolean, string, scriptable object... and through what action.
